@@ -18,7 +18,7 @@
             <a class="active" href="#projects">Projects</a>
             <a href="#archived" id="archiveLink">Archive</a>
             <a href="Profile.html" class="logo">
-                <img src="img/prof_pic.svg" alt="Profile">
+                <img src="" alt="Profile">
             </a>
         </div>
     </div>
@@ -75,6 +75,6 @@
     <!-- Add a container for the chart -->
     <div id="chart"></div>
 
-    <script src="{{ asset('JS Files\dashboard_script.js') }}"></script>
+    <script src="{{ asset('JS Files/dashboard_script.js') }}"></script>
 </body>
 </html>
