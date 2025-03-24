@@ -11,7 +11,7 @@
 <body>
     <div class="header">
         <a href="/public/Dashboard.html" class="logo">
-            <img src="{{ asset('img\341835580_3377258052532133_4186880548703356922_n.jpg') }}" alt="CEO">
+            <img src="{{ asset('img/341835580_3377258052532133_4186880548703356922_n.jpg') }}" alt="CEO">
         </a>
         <div class="header-right">
             <a href="Dashboard.html">Dashboard</a>
@@ -70,6 +70,19 @@
                 <button type="submit" class="btn">Update</button>
             </form>
         </div>
+    </div>
+
+    <!-- Add the missing elements -->
+    <div id="archivePopupWindow" class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h2>Archive Projects</h2>
+            <!-- Archive projects content here -->
+        </div>
+    </div>
+
+    <div id="archivedProjectsContainer">
+        <!-- Archived projects content here -->
     </div>
 
     <!-- Add a container for the chart -->
